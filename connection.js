@@ -4,7 +4,7 @@ mongoose.set("strictQuery", true);
 //const mongoURI = process.env.MONGODBURI;
  const connectToMongo = async () => {
   mongoose
-    .connect("mongodb+srv://sharvari0822:sharvariedke@cluster0.hleoys2.mongodb.net/", { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true })
+    .connect("mongodb+srv://sharvari0822:sharvariedke@cluster0.hleoys2.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
       console.log("connection established with mongodb server online");
     })
