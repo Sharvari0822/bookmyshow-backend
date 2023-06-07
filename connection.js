@@ -1,5 +1,4 @@
 require("dotenv").config(); 
-const { MongoClient } = require("mongodb");
 let mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
 //const mongoURI = process.env.MONGODBURI;
